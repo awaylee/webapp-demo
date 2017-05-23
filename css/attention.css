@@ -1,0 +1,48 @@
+.F_wrap .wrapper{
+	background: #f1f1f1;
+}
+.F_wrap .my_name{
+	padding:.6875rem; 
+	height:3rem;
+	display: box;
+	background: #fff;
+}
+
+.F_wrap .my_name img{
+	width: 3rem;
+	height:3rem;
+	float: left;
+}
+.F_wrap .my_name .my_info{
+	width: 57%;
+	padding-left:.625rem;
+	float: left;
+}
+.F_wrap .my_name .my_info h3{
+	font-weight: normal;
+	padding:.3125rem 0;
+	color: #000;
+	font-size: .875rem;
+}
+.F_wrap .my_name .my_info p{
+	font-size: .8125rem;
+	padding-top:.3125rem;
+	color: #999999;
+}
+.F_wrap .my_name .my_favour{
+	width: 4.2rem;
+	text-align: right;
+	float: right;
+}
+.F_wrap .wrapper .scrollBox dl{
+	margin-bottom: .375rem;
+	background: #fff;
+}
+.F_wrap .wrapper .scrollBox dt img{
+	width:100%;
+	height: 17.75rem;
+}
+.F_wrap .wrapper .scrollBox dd{
+	padding:.625rem 1.25rem;
+	color: #333;
+}

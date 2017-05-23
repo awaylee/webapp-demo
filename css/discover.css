@@ -1,0 +1,83 @@
+.F_wrap{
+	background: #f1f1f1;
+}
+.F_wrap .search{
+	padding:.4125rem;
+	border-bottom: 1px solid #cdcdcd;
+	margin-bottom: .4125rem;
+	background: #fff;
+	overflow: hidden;	
+}
+.F_wrap .search .search_txt{
+	width: 80.625%;
+	height:1.5rem;
+	line-height:1.5rem;
+	border:1px solid #aaaaaa;
+	border-radius: 4px;
+	text-indent: .4rem;
+	font-size: .75rem;
+	float: left;
+}
+.F_wrap .search .search_btn{
+	width: 2.8125rem;
+	height:1.5rem;
+	line-height:1.5rem;
+	text-align: center;
+	background: #0dc441;
+	color: #fff;
+	border:none;
+	border-radius: 4px;
+	float: right;
+}
+.F_wrap .wrapper{
+	background: #fff;
+}
+.F_wrap .my_name{
+	padding:.6875rem; 
+	height:3rem;
+	display: box;
+	background: #fff;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.F_wrap .my_name img{
+	width: 3rem;
+	height:3rem;
+	float: left;
+}
+.F_wrap .my_name .my_info{
+	width: 57%;
+	padding-left:.625rem;
+	float: left;
+}
+.F_wrap .my_name .my_info h3{
+	font-weight: normal;
+	padding:.3125rem 0;
+	color: #000;
+	font-size: .875rem;
+}
+.F_wrap .my_name .my_info p{
+	font-size: .8125rem;
+	padding-top:.3125rem;
+	color: #999999;
+}
+.F_wrap .my_name .my_favour{
+	width: 4.2rem;
+	text-align: right;
+	float: right;
+}
+.F_wrap .my_name .my_favour input{
+	width: 2.375rem;
+	height:1.125rem;
+	background: #0dc441;
+	color: #fff;
+	border:none;
+	font-size: .75rem;
+	text-align: center;
+	line-height: 1.125rem;
+	border-radius: 3px;
+}
+.F_wrap .my_name .my_favour .favour_yet{
+	background: #e5e5e5;
+}
+

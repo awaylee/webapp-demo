@@ -1,0 +1,115 @@
+/*personal*/
+.F_wrap .my_name{
+	padding:.6875rem; 
+	height:3rem;
+	display: box;
+	background: #fff;
+}
+.F_wrap .my_name img{
+	width: 3rem;
+	height:3rem;
+	float: left;
+}
+.F_wrap .my_name .my_info{
+	width: 57%;
+	padding-left:.625rem;
+	
+	float: left;
+}
+.F_wrap .my_name .my_info h3{
+	font-weight: normal;
+	padding:.3125rem 0;
+	color: #000;
+	font-size: .875rem;
+}
+.F_wrap .my_name .my_info p{
+	font-size: .8125rem;
+	padding-top:.3125rem;
+}
+.F_wrap nav{
+	height:2.1875rem;
+	line-height:2.1875rem;
+	background: rgba(255,255,255,.5);
+	display: box;
+	display: -webkit-box;
+	border-bottom: 1px solid #d9d9d9;
+	z-index: 999;
+}
+.F_wrap nav div{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	text-align: center;
+	box-flex:1;
+	-webkit-box-flex:1;
+	color: #000;
+	border-bottom:5px solid transparent; 
+}
+.F_wrap nav .active{
+	color:#0dc441;
+	border-bottom-color: #0dc441;
+}
+.F_wrap .wrapper .scrollBox{
+	overflow: hidden;
+}
+.F_wrap .wrapper .scrollBox .img{
+	display: inline;
+	width: 49.2%;
+	float: left;
+}
+.F_wrap .wrapper .scrollBox .img:nth-of-type(odd){
+	margin-right:1.6%;
+	margin-bottom:1.6%;
+}
+
+
+/* 关注 */
+.F_wrap .my_name{
+	padding:.6875rem; 
+	height:3rem;
+	display: box;
+	background: #fff;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.F_wrap .my_name .img{
+	width: 3rem;
+	height:3rem;
+	float: left;
+}
+.F_wrap .my_name .my_info{
+	width: 57%;
+	padding-left:.625rem;
+	float: left;
+}
+.F_wrap .my_name .my_info h3{
+	font-weight: normal;
+	padding:.3125rem 0;
+	color: #000;
+	font-size: .875rem;
+}
+.F_wrap .my_name .my_info p{
+	font-size: .8125rem;
+	padding-top:.3125rem;
+	color: #999999;
+}
+.F_wrap .my_name .my_favour{
+	width: 4.2rem;
+	text-align: right;
+	float: right;
+}
+.F_wrap .my_name .my_favour input{
+	width: 2.375rem;
+	height:1.125rem;
+	background: #0dc441;
+	color: #fff;
+	border:none;
+	font-size: .75rem;
+	text-align: center;
+	line-height: 1.125rem;
+	border-radius: 3px;
+}
+.F_wrap .my_name .my_favour .favour_yet{
+	background: #e5e5e5;
+}
+
+

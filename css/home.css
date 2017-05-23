@@ -1,0 +1,97 @@
+/*home*/
+/* .F_wrap{
+	width: 100%;
+	height: 100%;
+	display: box;
+	display: -webkit-box;
+	box-orient:vertical;
+	-webkit-box-orient:vertical;
+}
+header div{
+	width:37.5%;
+	margin:0 auto;
+}
+header div a{
+	display: inline-block;
+	color: #fff;
+	width: 50%;
+	height:1.5rem;
+	line-height:1.5rem;
+	text-align: center;
+	background: #3dd067;	
+}
+header div .hot{
+	border-radius:.75rem 0 0 .75rem;
+}
+header div .attention{
+	border-radius:0 .75rem .75rem 0;
+}
+header div .active{
+	background: #64d985;
+}
+.F_wrap .wrapper{
+	box-flex:1;
+	-webkit-box-flex:1;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+} */
+.F_wrap .scrollBox{
+	overflow: hidden;
+	width:100%;
+}
+.F_wrap nav{
+	position: absolute;
+	height:2.1875rem;
+	line-height:2.1875rem;
+	left:0;
+	right:0;
+	top:2.75rem;;
+	background: rgba(255,255,255,.5);
+	display: box;
+	display: -webkit-box;
+	border-bottom: 1px solid #d9d9d9;
+	z-index: 999;
+}
+.F_wrap nav a{
+	display: block;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	text-align: center;
+	box-flex:1;
+	-webkit-box-flex:1;
+	color: #000;
+	border-bottom:5px solid transparent; 
+}
+.F_wrap nav .active{
+	color:#0dc441;
+	border-bottom-color: #0dc441;
+}
+.wrapper dl{
+	width: 48%;
+	margin-bottom:2%;
+	border:1px solid #e5e5e5;
+}
+.wrapper dl:nth-of-type(odd){
+	float:left;
+}
+.wrapper dl dt{
+	border-bottom:1px solid #e5e5e5;
+}
+.wrapper dl dt img{
+	width:100%;
+	height:100%;
+}
+.wrapper dl:nth-of-type(even){
+	float:right;
+}
+.wrapper dl dd{
+	line-height:1.125rem;
+	padding: .5rem;
+	font-size: .75rem;
+}
+.wrapper dl .d_txt{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
